@@ -10,6 +10,7 @@ body {
   background-color: #ffffff;
   color: var(--title-text-color);
   font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
 }
 ul {
   list-style: none;
@@ -71,6 +72,11 @@ ul {
 /* ---------------------------Мейн---------------------------- */
 
 /* -----------------------------Герой------------------------------- */
+
+.hero {
+  background: #2f303a;
+}
+
 .primary-text {
   font-weight: 900;
   font-size: 44px;
@@ -79,7 +85,6 @@ ul {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-  background-color: #000000;
 }
 
 .button {
@@ -89,7 +94,9 @@ ul {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
+
 .button:hover,
 .button:focus {
   background-color: #188ce8;
@@ -146,7 +153,7 @@ ul {
 /* ----------------------------footer----------------------------- */
 
 .footer {
-  background-color: #000000;
+  background-color: #2f303a;
 }
 
 .logo-footer {
@@ -183,11 +190,12 @@ ul {
 /* ---------------------------Портфолио--------------------------- */
 
 .portfolio-buttons {
+  font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-  letter-spacing: 0.03em;
+  cursor: pointer;
 
   color: var(--primary-text-color);
   background: var(--primary-bg-color);
@@ -213,4 +221,10 @@ ul {
   letter-spacing: 0.03em;
 
   color: var(--title-text-color);
+}
+
+/* --------------------------Footer-Portfolio-------------------------- */
+
+.footer {
+  background: #2f303a;
 }
